@@ -14,7 +14,7 @@ Official documentation, user guides, and training materials for **KWikSync** - a
 |---------|-------------|
 | [**Getting Started**](guides/getting-started.md) | Installation and initial configuration |
 | [**User Guide**](guides/user-guide.md) | Complete walkthrough of all features |
-| [**Training Materials**](training/) | Video scripts and presentation resources |
+| [**Training Video**](training/training-video.md) | Video tutorial and resources |
 | [**API Reference**](api/) | Technical documentation for developers |
 
 ---
@@ -36,7 +36,7 @@ Official documentation, user guides, and training materials for **KWikSync** - a
 - [Troubleshooting](guides/troubleshooting.md)
 
 ### Training
-- [Training Video Scripts](training/video-scripts.md)
+- [Training Video](training/training-video.md)
 - [Quick Reference Card](training/quick-reference.md)
 
 ### API & Technical
