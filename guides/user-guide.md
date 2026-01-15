@@ -18,8 +18,8 @@ Access KWikSync from the ServiceNow Application Navigator:
 
 | Module | Description |
 |--------|-------------|
-| **Connection Settings** | Configure sync credentials and schedules |
-| **KWikSync Hub** | Central dashboard with overview metrics |
+| **KWikSync Hub** | Home page - central dashboard with overview metrics |
+| **Settings**  **Connection Settings** | Configure sync credentials and schedules |
 | **Locations** | Site and facility management |
 | **Projects** | Project tracking and organization |
 | **Tickets** | Work order management |
@@ -33,9 +33,9 @@ Access KWikSync from the ServiceNow Application Navigator:
 
 ## Dashboards
 
-### KWikSync Hub
+### KWikSync Hub (Home Page)
 
-The Hub is your central command center, providing:
+The Hub is your central command center and home page, providing:
 
 - **Sync Status** - Real-time synchronization health
 - **Record Counts** - Total records across all modules
@@ -162,7 +162,7 @@ Access KWikSync from any device:
 
 ## Tips & Best Practices
 
-1. **Start with the Hub** - Check sync status daily
+1. **Start with the Hub** - Check sync status daily from your home page
 2. **Use Filters** - Narrow down large datasets efficiently
 3. **Check the Sync Log** - Monitor for any sync errors
 4. **Leverage Favorites** - Pin frequently used modules

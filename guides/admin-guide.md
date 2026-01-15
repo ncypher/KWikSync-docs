@@ -40,7 +40,7 @@ This guide covers advanced configuration, security settings, and administrative 
 
 ### Accessing Settings
 
-1. Navigate to **KWikSync**  **Connection Settings**
+1. Navigate to **KWikSync**  **Settings**  **Connection Settings**
 2. Requires `x_kwr_kwiksync.admin` role
 
 ### Configuration Options
@@ -203,3 +203,4 @@ KWikSync exposes REST APIs for advanced integration:
 ---
 
 [ Back to Documentation](../README.md)
+

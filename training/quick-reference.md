@@ -15,8 +15,8 @@ Print this page for a handy desk reference!
 | To Access | Navigate To |
 |-----------|-------------|
 | Application | Type "KWikSync" in Navigator |
-| Hub Dashboard | KWikSync  KWikSync Hub |
-| Settings | KWikSync  Connection Settings |
+| Home Page | KWikSync  KWikSync Hub |
+| Settings | KWikSync  Settings  Connection Settings |
 | Help | KWikSync  Support |
 
 ---
@@ -25,7 +25,7 @@ Print this page for a handy desk reference!
 
 | Dashboard | Purpose | Key Actions |
 |-----------|---------|-------------|
-| **Hub** | Central overview | View sync status, quick actions |
+| **Hub** | Home page / overview | View sync status, quick actions |
 | **Locations** | Site management | Search, filter by region |
 | **Projects** | Project tracking | View status, linked tickets |
 | **Tickets** | Work orders | Filter by status, priority |
@@ -88,14 +88,14 @@ Print this page for a handy desk reference!
 |---------|----------|
 | Dashboard won't load | Clear browser cache, refresh |
 | Access denied | Check role assignment |
-| Data not syncing | Verify Customer Key |
+| Data not syncing | Verify Customer Key in Settings |
 | Slow performance | Apply filters, reduce results |
 
 ---
 
 ## Support
 
- **Email**: ServiceNowSupport@kw-corp.com  
+ **Email**: ServiceNowSupport@kw-corp.com
  **Hours**: Monday - Friday, 8 AM - 6 PM EST
 
 ---

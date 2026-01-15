@@ -25,16 +25,43 @@ Before installing KWikSync, ensure you have:
 
 ## Installation
 
-### Step 1: Install from ServiceNow Store
+### Option A: Private App Share (Recommended)
 
+KWikSync is distributed as a private application through KW Corporation.
+
+**Step 1: Request Access**
+1. Contact KW Corporation at ServiceNowSupport@kw-corp.com
+2. Provide your ServiceNow instance URL
+3. You will receive an app share invitation
+
+**Step 2: Accept the App Share**
 1. Log in to your ServiceNow instance as an administrator
-2. Navigate to **System Applications**  **All Available Applications**  **All**
-3. Search for **KWikSync**
-4. Click **Install**
-5. Accept the license agreement
-6. Wait for installation to complete (typically 2-3 minutes)
+2. Navigate to **System Applications**  **My Company Applications**
+3. Look for the pending KWikSync application share
+4. Click **Accept** to add the app to your instance
+5. Click **Install** to complete the installation
 
-### Step 2: Verify Installation
+### Option B: Update Set Import
+
+For instances without app share access:
+
+**Step 1: Obtain Update Set**
+1. Contact KW Corporation for the KWikSync Update Set file
+2. You will receive an XML file via secure transfer
+
+**Step 2: Import Update Set**
+1. Navigate to **System Update Sets**  **Retrieved Update Sets**
+2. Click **Import Update Set from XML**
+3. Select the KWikSync XML file
+4. Click **Upload**
+
+**Step 3: Preview and Commit**
+1. Open the imported Update Set
+2. Click **Preview Update Set**
+3. Review any conflicts or issues
+4. Click **Commit Update Set**
+
+### Step 3: Verify Installation
 
 After installation completes:
 
@@ -66,7 +93,7 @@ KWikSync uses two roles for access control:
 
 ### Configure Connection Settings
 
-1. Navigate to **KWikSync**  **Connection Settings**
+1. Navigate to **KWikSync**  **Settings**  **Connection Settings**
 2. Enter your **Customer Key** (provided by KW Corporation)
 3. Configure sync schedule preferences
 4. Click **Save**
@@ -78,7 +105,7 @@ KWikSync uses two roles for access control:
 
 Once configured, you're ready to run your first synchronization:
 
-1. Navigate to **KWikSync**  **KWikSync Hub**
+1. Navigate to **KWikSync**  **KWikSync Hub** (the home page)
 2. Review the dashboard status
 3. Click **Sync Now** to initiate manual sync
 4. Monitor progress in the Sync Log

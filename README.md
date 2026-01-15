@@ -1,6 +1,6 @@
 ﻿# KWikSync Documentation
 
-[![ServiceNow Store](https://img.shields.io/badge/ServiceNow-Store%20App-00C389?style=flat&logo=servicenow)](https://store.servicenow.com/)
+[![ServiceNow](https://img.shields.io/badge/ServiceNow-Private%20App-00C389?style=flat&logo=servicenow)](https://www.servicenow.com/)
 [![Version](https://img.shields.io/badge/version-1.0.1-blue.svg)](https://github.com/ncypher/KWikSync)
 [![License](https://img.shields.io/badge/license-Proprietary-red.svg)](LICENSE)
 
@@ -22,7 +22,7 @@ Official documentation, user guides, and training materials for **KWikSync** - a
 ##  Quick Links
 
 - **Main Repository**: [github.com/ncypher/KWikSync](https://github.com/ncypher/KWikSync)
-- **ServiceNow Store**: *Coming Soon*
+- **Request Access**: ServiceNowSupport@kw-corp.com
 - **Support**: ServiceNowSupport@kw-corp.com
 
 ---
@@ -69,11 +69,22 @@ KWikSync provides seamless data synchronization between ServiceNow and external 
 
 ---
 
+##  Installation
+
+KWikSync is distributed as a **private application**. To get access:
+
+1. **Contact KW Corporation** at ServiceNowSupport@kw-corp.com
+2. **Provide your instance URL** for app sharing
+3. **Accept the app share** in your ServiceNow instance
+4. **Install and configure** using our [Getting Started Guide](guides/getting-started.md)
+
+---
+
 ##  Version History
 
 | Version | Date | Notes |
 |---------|------|-------|
-| 1.0.1 | January 2026 | Store certification preparation, UI enhancements |
+| 1.0.1 | January 2026 | Certification preparation, UI enhancements |
 | 1.0.0 | October 2025 | Initial release - core sync functionality |
 
 ---
