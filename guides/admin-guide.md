@@ -1,4 +1,4 @@
-﻿# Administrator Guide
+# Administrator Guide
 
 [ Back to Documentation](../README.md)
 
@@ -65,9 +65,11 @@ This guide covers advanced configuration, security settings, and administrative 
 ### Manual Sync
 
 Trigger synchronization on-demand:
-1. Navigate to **KWikSync**  **KWikSync Hub**
-2. Click **Sync Now**
-3. Monitor progress in the Sync Log
+1. Navigate to **KWikSync**  **KWikSync Connection Dashboard** (or click SYNC on any card)
+2. Use **SYNC ALL TABLES** or individual **SYNC** buttons per module
+3. Monitor progress via the **Activity Log** in the dashboard UI
+
+>  **Tip**: The Connection Dashboard shows real-time status (IDLE/SYNCING) and messages in the Activity Log.
 
 ### Sync Scheduling
 
@@ -79,14 +81,22 @@ Configure automated synchronization:
 
 ### Monitoring Sync Operations
 
-**Sync Log:**
-- Navigate to **KWikSync**  **Sync Log**
+**Real-Time Monitoring (Connection Dashboard):**
+- Navigate to **KWikSync**  **Settings**  **Connection Settings**
+- Watch the **Activity Log** panel for live sync messages
+- Each card displays record count and last sync timestamp
+- Status indicators show IDLE or SYNCING state
+
+**Sync Log (Historical):**
+- Navigate to **KWikSync**  **Sync Log** (table view)
 - View all sync operations with timestamps
-- Filter by date, status, or record type
+- Filter by date, status, or table
+- See records processed, created, updated, and failed counts
 
 **Error Log:**
 - Navigate to **KWikSync**  **Error Log**
 - View failed operations and error details
+- Includes error type, severity, and stack trace
 - Use for troubleshooting sync issues
 
 ---
@@ -115,7 +125,6 @@ KWikSync manages the following tables:
 | `x_kwr_kwiksync_locations` | Location/site records |
 | `x_kwr_kwiksync_deliverables` | Deliverable records |
 | `x_kwr_kwiksync_sync_log` | Sync operation history |
-| `x_kwr_kwiksync_field_mapping` | Field mapping configuration |
 | `x_kwr_kwiksync_error_log` | Error tracking |
 
 ---
@@ -133,10 +142,19 @@ All KWikSync tables are protected by Access Control Lists (ACLs):
 
 ### Audit Trail
 
-All operations are logged for compliance:
-- Sync operations logged in Sync Log
-- Errors logged in Error Log
-- Standard ServiceNow audit on all table records
+All operations are logged for compliance using KWikSync's custom logging tables:
+
+| Log Table | Purpose |
+|-----------|---------|
+| `x_kwr_kwiksync_sync_log` | Records all sync operations with timestamps, table names, record counts (processed/created/updated/failed), and status |
+| `x_kwr_kwiksync_error_log` | Captures errors with type, severity, message, stack trace, and resolution status |
+
+**Standard ServiceNow Audit:**
+- All KWikSync table records also leverage ServiceNow's native audit capabilities
+- Field-level changes tracked via sys_audit table
+- Access to audit data via standard ServiceNow reporting
+
+>  **Note**: KWikSync logging is custom-built within the scoped application and does not require additional ServiceNow plugins.
 
 ---
 
@@ -145,7 +163,7 @@ All operations are logged for compliance:
 ### Log Cleanup
 
 Periodically clean up old log entries:
-1. Navigate to **KWikSync**  **Sync Log**
+1. Navigate to **KWikSync**  **Sync Log** or **Error Log**
 2. Filter for records older than retention period
 3. Delete or archive as needed
 
@@ -203,4 +221,3 @@ KWikSync exposes REST APIs for advanced integration:
 ---
 
 [ Back to Documentation](../README.md)
-

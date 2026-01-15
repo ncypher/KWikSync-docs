@@ -1,4 +1,4 @@
-﻿# KWikSync User Guide
+# KWikSync User Guide
 
 [ Back to Documentation](../README.md)
 
@@ -37,10 +37,22 @@ Access KWikSync from the ServiceNow Application Navigator:
 
 The Hub is your central command center and home page, providing:
 
-- **Sync Status** - Real-time synchronization health
 - **Record Counts** - Total records across all modules
-- **Recent Activity** - Latest sync operations
-- **Quick Actions** - One-click access to common tasks
+- **Last Sync Times** - When each module was last synchronized
+- **Recent Activity** - Recently updated records from each module
+- **Quick Navigation** - One-click access to all dashboards
+
+### KWikSync Connection Dashboard
+
+The Connection Dashboard provides real-time synchronization control:
+
+- **Sync Controls** - Manual sync buttons for each table with IDLE/SYNCING status
+- **Live Activity Log** - Real-time sync operation messages in the UI
+- **Record Counts** - Current totals for each module (Locations, Projects, Tickets, Tasks, Assets)
+- **Last Sync Timestamps** - Displayed on each card showing when data was last updated
+- **Theme Options** - Light, Dark, Contrast, and Accessible display modes
+
+>  **Tip**: Watch the Activity Log in real-time while syncing to see progress and any issues.
 
 ### Locations Dashboard
 
@@ -56,7 +68,7 @@ Manage geographic and site data:
 Track project status and deliverables:
 
 - Project timeline visualization
-- Budget and resource allocation
+- Progress tracking and milestones
 - Linked tickets and tasks
 - Completion percentage tracking
 
@@ -125,18 +137,21 @@ Manage field assessments:
 
 ### Exporting Data
 
-1. Navigate to the desired dashboard
+1. Navigate to the desired table view (e.g., Locations Table, Assets Table)
 2. Apply any filters needed
-3. Click the **Export** button
-4. Select format (Excel, CSV, PDF)
+3. Use ServiceNow's built-in list export
+4. Select **CSV** format
 5. Download begins automatically
+
+>  **Note**: Export functionality uses ServiceNow's native list export to CSV. Additional formats may be available in future versions.
 
 ### Viewing Record Details
 
-1. Click any record row in a dashboard
-2. The detail view opens with full information
-3. Edit fields as needed (if you have permission)
-4. Click **Save** to commit changes
+1. Navigate to any dashboard with record lists (e.g., Recent Assets on Hub)
+2. Click any record row to open the full record form
+3. View all fields and related information
+4. Edit fields as needed (if you have permission)
+5. Click **Save** to commit changes
 
 ---
 
@@ -164,8 +179,9 @@ Access KWikSync from any device:
 
 1. **Start with the Hub** - Check sync status daily from your home page
 2. **Use Filters** - Narrow down large datasets efficiently
-3. **Check the Sync Log** - Monitor for any sync errors
-4. **Leverage Favorites** - Pin frequently used modules
+3. **Use Connection Dashboard** - Monitor syncs in real-time with the Activity Log
+4. **Check the Sync Log** - Review historical sync operations for troubleshooting
+5. **Leverage Favorites** - Pin frequently used modules
 
 ---
 

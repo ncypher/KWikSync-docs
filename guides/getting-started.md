@@ -1,4 +1,4 @@
-﻿# Getting Started with KWikSync
+# Getting Started with KWikSync
 
 [ Back to Documentation](../README.md)
 
@@ -105,10 +105,31 @@ KWikSync uses two roles for access control:
 
 Once configured, you're ready to run your first synchronization:
 
+### Option 1: From Connection Dashboard (Recommended)
+
+1. You're already on the **Connection Settings** page after configuration
+2. Use the **SYNC** button on individual cards (Locations, Projects, Tickets, Tasks, Assets)
+3. Or click **SYNC ALL TABLES** for a full sync
+4. Watch progress in real-time via the **Activity Log** panel at the bottom
+5. Each card shows status (IDLE/SYNCING) and displays the last sync timestamp when complete
+
+### Option 2: From KWikSync Hub
+
 1. Navigate to **KWikSync**  **KWikSync Hub** (the home page)
-2. Review the dashboard status
-3. Click **Sync Now** to initiate manual sync
-4. Monitor progress in the Sync Log
+2. Review the dashboard overview
+3. Click **Refresh** to update statistics
+
+### Reviewing Sync Results
+
+**Real-Time (Connection Dashboard):**
+- Watch the Activity Log messages as sync progresses
+- Card counts update after sync completes
+- Last sync timestamps appear on each card
+
+**Historical (Sync Log):**
+- Navigate to **KWikSync**  **Sync Log**
+- View detailed sync history with timestamps
+- See record counts: processed, created, updated, failed
 
 ---
 
