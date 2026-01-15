@@ -1,0 +1,96 @@
+﻿# KWikSync Documentation
+
+[![ServiceNow Store](https://img.shields.io/badge/ServiceNow-Store%20App-00C389?style=flat&logo=servicenow)](https://store.servicenow.com/)
+[![Version](https://img.shields.io/badge/version-1.0.1-blue.svg)](https://github.com/ncypher/KWikSync)
+[![License](https://img.shields.io/badge/license-Proprietary-red.svg)](LICENSE)
+
+Official documentation, user guides, and training materials for **KWikSync** - a ServiceNow integration application for external data synchronization.
+
+---
+
+##  Documentation
+
+| Section | Description |
+|---------|-------------|
+| [**Getting Started**](guides/getting-started.md) | Installation and initial configuration |
+| [**User Guide**](guides/user-guide.md) | Complete walkthrough of all features |
+| [**Training Materials**](training/) | Video scripts and presentation resources |
+| [**API Reference**](api/) | Technical documentation for developers |
+
+---
+
+##  Quick Links
+
+- **Main Repository**: [github.com/ncypher/KWikSync](https://github.com/ncypher/KWikSync)
+- **ServiceNow Store**: *Coming Soon*
+- **Support**: ServiceNowSupport@kw-corp.com
+
+---
+
+##  Table of Contents
+
+### Guides
+- [Getting Started](guides/getting-started.md)
+- [User Guide](guides/user-guide.md)
+- [Administrator Guide](guides/admin-guide.md)
+- [Troubleshooting](guides/troubleshooting.md)
+
+### Training
+- [Training Video Scripts](training/video-scripts.md)
+- [Quick Reference Card](training/quick-reference.md)
+
+### API & Technical
+- [Integration Overview](api/integration-overview.md)
+- [Field Mapping Reference](api/field-mapping.md)
+
+---
+
+##  KWikSync Features
+
+KWikSync provides seamless data synchronization between ServiceNow and external systems:
+
+- ** Locations** - Geographic and site data management
+- ** Projects** - Project tracking and organization
+- ** Tickets** - Work order synchronization
+- ** Tasks** - Task assignment and completion tracking
+- ** Assets** - Inventory and equipment management
+- ** Warehouse** - Stock levels and logistics
+- ** Site Surveys** - Location assessment workflows
+
+---
+
+##  Requirements
+
+| Requirement | Version |
+|-------------|---------|
+| ServiceNow Platform | Tokyo or later |
+| IntegrationHub | ETL license required |
+| User Role | `x_kwr_kwiksync.user` or `x_kwr_kwiksync.admin` |
+
+---
+
+##  Version History
+
+| Version | Date | Notes |
+|---------|------|-------|
+| 1.0.1 | January 2026 | Store certification preparation, UI enhancements |
+| 1.0.0 | October 2025 | Initial release - core sync functionality |
+
+---
+
+##  Contributing
+
+This documentation is maintained by KW Corporation. For corrections or suggestions, please contact ServiceNowSupport@kw-corp.com.
+
+---
+
+##  License
+
+KWikSync is a proprietary application developed by KW Corporation. All rights reserved.
+
+---
+
+<p align="center">
+  <strong>KWikSync</strong> - Seamless Data Synchronization for ServiceNow<br>
+   2026 KW Corporation
+</p>
